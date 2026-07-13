@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dela+Gothic+One&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inconsolata:wght@200..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  background: #0c0b0b;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1328px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 128%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+.card {
+  width: 424px;
+  height: 154px;
+  background: linear-gradient(
+    94.88deg,
+    rgba(255, 255, 255, 0.1) 0.97%,
+    rgba(255, 255, 255, 0) 103.14%
+  );
+  border-radius: 10px;
+  border: 1px solid;
+  border-image-source: linear-gradient(
+    95.21deg,
+    rgba(255, 255, 255, 0.2) -0.59%,
+    rgba(255, 255, 255, 0.092) 106.99%
+  );
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.row-2 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 23px;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  gap: 106px;
+  padding: 16px 0px 22px 20px;
+  border: 1px solid #282727;
+}
+
+.card-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.card-title {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  margin-bottom: 16px;
+  color: #ffffff;
+}
+
+.card-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 180%;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+
+.card-persent {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+
+.red {
+  color: #f06500;
+}
+
+.row-center {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 157px;
+  padding: 67px 0px 70px 66px;
+  background: linear-gradient(
+    94.88deg,
+    rgba(255, 255, 255, 0.05) 0.97%,
+    rgba(255, 255, 255, 0) 103.14%
+  );
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid white;
+  border-bottom: none;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.box-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+table {
+  color: white;
+  width: 1318px;
+  text-align: center;
+  border-collapse: collapse;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.table-parent {
+  max-width: 1318px;
+  width: 100%;
+  overflow-x: auto;
+}
+
+th {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 180%;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 14px 0 22px;
+}
+
+tbody {
+  background: linear-gradient(
+    94.88deg,
+    rgba(255, 255, 255, 0.05) 0.97%,
+    rgba(255, 255, 255, 0) 103.14%
+  );
+
+  border: 1px solid white;
+  border-top: none;
+}
+
+td {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 180%;
+  letter-spacing: 0%;
+  color: #b8b8b8;
+}
+
+.table-1st-coloum {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 180%;
+  letter-spacing: 0%;
+  color: #ffffff;
+  padding: 17px 0px;
+}
+.box-1 img {
+  width: 361px;
+}
+
+.fox_img {
+  width: 315px;
+}
+
+@media (max-width: 1200px) {
+  .row-center {
+    padding: 67px 0 70px;
+  }
+}
+
+@media (max-width: 617px) {
+  .box-2 {
+    gap: 40px;
+  }
+}
+
+@media (max-width: 430px) {
+  .border {
+    width: 100%;
+  }
+}

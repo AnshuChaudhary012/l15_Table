@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  background-image: url(/assets/images/SignIn/Sign\ in.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.row {
+  display: flex;
+  align-items: center;
+}
+.left,
+.right {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 340.5px;
+  height: 407.5px;
+  margin-top: 48px;
+}
+
+form h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 135%;
+  letter-spacing: 0%;
+}
+
+form > p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #62656d;
+  margin-top: 10px;
+  margin-bottom: 32px;
+}
+
+form > p > span {
+  color: #2563eb;
+}
+
+.input-box {
+  max-width: 340px;
+  width: 100%;
+  height: 44px;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  border: 1px solid #e4eaf7;
+  background-color: #f5f8ff;
+  margin-bottom: 10px;
+  padding-left: 16px;
+}
+
+input {
+  border: none;
+  height: 24px;
+  padding-left: 2px;
+  background-color: #f5f8ff;
+}
+.forget_password {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2px;
+  color: #62656d;
+}
+
+form button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: middle;
+  background: linear-gradient(83.67deg, #2194ff 10.02%, #2563eb 90.05%);
+  border-radius: 50px;
+
+  max-width: 340px;
+  width: 100%;
+  color: #ffffff;
+  max-height: 48px;
+  height: 100%;
+  border: none;
+  margin-top: 24px;
+  cursor: pointer;
+}
+
+.continue_with {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+  justify-content: center;
+  color: #9197a6;
+  gap: 8px;
+}
+form .line {
+  border: 1px solid #c9cfdb;
+  width: 107.5px;
+  height: 0px;
+}
+
+.direct {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20.5px;
+}
+
+.direct .box {
+  max-width: 166px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 1px solid #e4eaf7;
+  border-radius: 6px;
+  max-height: 41px;
+  padding: 10px;
+}
+
+.box p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+.right {
+  background: linear-gradient(
+    83.67deg,
+    rgba(33, 148, 255, 0.6) 10.02%,
+    rgba(37, 99, 235, 0.6) 90.05%
+  );
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  gap: 10px;
+  width: 166px;
+  height: 41px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(228, 234, 247, 1);
+}
+
+.facebook {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  gap: 10px;
+  width: 166px;
+  height: 41px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(228, 234, 247, 1);
+}
+.logo-box {
+  margin-bottom: 48px;
+  cursor: pointer;
+}
+.position {
+  position: absolute;
+  top: 100px;
+  left: 74px;
+  transform: translate(50% 50%);
+}
+
+.position-2 {
+  position: absolute;
+  top: 73px;
+  left: 3%;
+}
+
+.right-box {
+  position: relative;
+  margin: 30px;
+}
+
+@media (max-width: 1080px) {
+  .row {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .left,
+  .right {
+    width: 100vw;
+    height: 60%;
+  }
+  .container{
+    height: 110vh;
+    
+  }
+}
